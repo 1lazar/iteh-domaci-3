@@ -2,8 +2,9 @@ import React from "react";
 
 
 const CarType = ({ carType , numCarType }) => {
+    const stil = { paddingBottom: "5.5rem" };
   return (
-    <div className="card">
+    <div className="card" style={stil}>
       <div className="row g-0">
         <div className="col-5 col-sm-4">
           {numCarType === 0 ? <img
