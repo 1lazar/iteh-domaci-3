@@ -30,7 +30,37 @@ const HoneyTypes = ({carTypes1,carTypes2, changePage, page }) => {
           ))}
         </>
       )}
-      
+      <div className="d-flex justify-content-center bd-highlight mb-2">
+        <div className="p-2 bd-highlight">
+          <div
+            className="btn-toolbar"
+            role="toolbar"
+            aria-label="Toolbar with button groups"
+          >
+            <div
+              className="btn-group me-2"
+              role="group"
+              aria-label="First group"
+            >
+              <button
+                type="button"
+                className="btn btn-primary"
+                onClick={() => changePage(1)}
+              >
+                1
+              </button>
+              <button
+                type="button"
+                className="btn btn-primary"
+                onClick={() => changePage(2)}
+              >
+                2
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      &nbsp;
       <Footer />
     </> 
   );

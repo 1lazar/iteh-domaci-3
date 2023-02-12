@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState } from "react";
 
 function App() {
-  const carTypes = [
+  const carTypes1 = [
     {
       id: 1,
       name: "Limuzina",
@@ -32,6 +32,36 @@ function App() {
         "Kupe je osobni automobil trovolumenskog oblika karoserije s dvoja bočna vrata i prtljažnikom odvojenim od putničke kabine. Naziv kupe potječe od francuske riječi coupé.",
     },
   ];
+  const carTypes2 = [
+    {
+      id: 5,
+      name: "Dizel",
+      about:
+        "Limuzina je osobni automobil s četverim vratima i prtljažnikom odvojenim od putničke kabine.Limuzina je bilo koji automobil takvog oblika karoserije, no tom se riječju razgovorno često opisuju produžene stretch limuzine kakve su česte u SAD-u, a razlog tome je što se tamo za obične limuzine koristi isključivo pojam sedan.",
+    },
+    {
+      id: 6,
+      name: "Benzin",
+      about:
+        "Karavan je sobni auto sa pet vrata izveden iz limuzine s kojom dijeli veličinu i platformu, ali za razliku od nje ima krov koji se nastavlja sve do stražnjeg kraja, a prtljažnik se nalazi unutar putničke kabine iza stražnjih sjedala. To mu omogućuje utovar većih ili veće količine predmeta u odnosu na istovjetnu limuzinu.",
+    },
+    {
+      id: 7,
+      name: "Hibrid",
+      about:
+        'Kabriolet je bilo koji osobni automobil s metalnim ili platnenim krovom, kojeg je po potrebi moguće električnim ili ručnim putem sklopiti iza putničke kabine ili u prtljažnik. Međutim, za neke vrste kabrioleta često se koriste i zasebni nazivi, pa se tako sportski kabriolet s dva sjedala naziva roadster, spider ili spyder.',
+    },
+    {
+      id: 8,
+      name: "Elektricni",
+      about:
+        "Kupe je osobni automobil trovolumenskog oblika karoserije s dvoja bočna vrata i prtljažnikom odvojenim od putničke kabine. Naziv kupe potječe od francuske riječi coupé.",
+    },
+  ];
+  const [page, setPage] = useState(1);
+  function changePage(page) {
+    setPage(page);
+  }
   const carItalija = [
     {
       origin: "Italija",
