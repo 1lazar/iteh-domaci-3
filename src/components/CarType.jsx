@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const CarType = ({ carType , numCarType }) => {
   return (
     <div className="card">

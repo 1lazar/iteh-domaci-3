@@ -136,7 +136,10 @@ function App() {
           path="/types"
           element={
             <CarTypes
-              carTypes={carTypes}
+              carTypes1={carTypes1}
+              carTypes2={carTypes2}
+              changePage={changePage}
+              page={page}
             />
           }
         />

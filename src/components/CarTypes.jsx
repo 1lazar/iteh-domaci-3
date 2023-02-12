@@ -61,7 +61,7 @@ const HoneyTypes = ({carTypes1,carTypes2, changePage, page }) => {
         </div>
       </div>
       &nbsp;
-      <Footer />
+      {/* <Footer /> */}
     </> 
   );
 };
