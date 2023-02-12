@@ -37,25 +37,25 @@ function App() {
       id: 5,
       name: "Dizel",
       about:
-        "Limuzina je osobni automobil s četverim vratima i prtljažnikom odvojenim od putničke kabine.Limuzina je bilo koji automobil takvog oblika karoserije, no tom se riječju razgovorno često opisuju produžene stretch limuzine kakve su česte u SAD-u, a razlog tome je što se tamo za obične limuzine koristi isključivo pojam sedan.",
+        "Diesel je dobio naziv po njemačkim izumitelju Rudolfu Dieselu koji je izumio diesel motor. Biodiesel je (iako se kemijski razlikuje) pod određenim uvijetima pogodan kao gorivo za normalan rad diesel motora.",
     },
     {
       id: 6,
       name: "Benzin",
       about:
-        "Karavan je sobni auto sa pet vrata izveden iz limuzine s kojom dijeli veličinu i platformu, ali za razliku od nje ima krov koji se nastavlja sve do stražnjeg kraja, a prtljažnik se nalazi unutar putničke kabine iza stražnjih sjedala. To mu omogućuje utovar većih ili veće količine predmeta u odnosu na istovjetnu limuzinu.",
+        "Benzin je providna iz petroleuma izvedena zapaljiva tečnost korištena primarno kao gorivo u većini motora sa unutrašnjim sagorijevanjem koji se pale od iskre. Sastoji se većinom od organskih jedinjenja do kojih se dolazi frakcionom destilacijom petroleuma; poboljšava se raznim aditivima. U prosjeku, iz barela očvrsnute nafte od 160 litara može da se dobije oko 72 litra benzina nakon procesiranja u naftnoj rafineriji, u zavisnosti od COA-a i toga koji drugi rafinirani proizvodi se takođe ekstraktuju.",
     },
     {
       id: 7,
       name: "Hibrid",
       about:
-        'Kabriolet je bilo koji osobni automobil s metalnim ili platnenim krovom, kojeg je po potrebi moguće električnim ili ručnim putem sklopiti iza putničke kabine ili u prtljažnik. Međutim, za neke vrste kabrioleta često se koriste i zasebni nazivi, pa se tako sportski kabriolet s dva sjedala naziva roadster, spider ili spyder.',
+        'Hibridni automobili su oni automobili koji za pokretanje koriste dva ili više izvora energije, umjesto jednog kao kod tradicionalnih automobila. Najčešća je kombinacija benzinskog ili dizelskog motora s elektromotorom, kao što je to slučaj kod Toyote Prius.',
     },
     {
       id: 8,
       name: "Elektricni",
       about:
-        "Kupe je osobni automobil trovolumenskog oblika karoserije s dvoja bočna vrata i prtljažnikom odvojenim od putničke kabine. Naziv kupe potječe od francuske riječi coupé.",
+        "Električni automobil automobil koji se pokreće elektromotorom, koristeći električnu energiju pohranjenu u akumulatoru, ili drugim uređajima za pohranu energije. Električni automobili su bili popularni krajem 19. i početkom 20. veka, dok su unapređenja motora sa unutarnjim sagorevanjem i masovna proizvodnja jeftinijeg vozila na benzin doveli do smanjenja korištenja vozila na električni pogon.",
     },
   ];
   const [page, setPage] = useState(1);
